@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.cajaControlStock{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+.cajaBoton{
+    display: grid;
+    justify-items: left;
+    justify-self: start;
+}
+h1{
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    background-color: rgb(83, 83, 204);
+}
+h4{
+    margin: 1rem auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 14px !important;
+    width: 700px;
+    background-color: rgb(157, 157, 197);
+}
+.infoCat{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.categoriaA{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(82, 160, 82);
+    border: 0.2rem solid black;
+}
+.categoriaB {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(216, 216, 27);
+    border: 0.2rem solid black;
+}
+.categoriaC {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(230, 98, 74);
+    border: 0.2rem solid black;
+}
+p{
+    margin: 0.5rem;
+}
+.importante{
+    background-color: whitesmoke;
+    font-weight: bolder;
+    padding: 0.1rem;
+}
+#verificarStockBtn {
+    border-radius: 0.5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    width: 200px;
+    height: 50px;
+    color: #333;
+    margin-top: 50px; 
+    margin-left: 20px;
+    background-color: rgb(156, 206, 207);
+}
+#verificarStockBtn:hover {
+    background-color: #57f3f3;
+}
+#verificarStockBtn:active {
+    transform: scale(1.1);
+}
+#limpiarBtn {
+    border-radius: 0.5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    width: 200px;
+    height: 50px;
+    color: #333;
+    margin-top: 50px;
+    margin-left: 20px; 
+    background-color: rgb(156, 206, 207);
+}
+#limpiarBtn:hover {
+    background-color: #57f3f3;
+}
+#limpiarBtn:active {
+    transform: scale(1.1);
+}
+#resultados {
+margin-top: -250px;
+}
+.textoComprar {
+    color: rgb(233, 3, 3);
+    font-weight: bold;
+}
+.textoNoComprar {
+    font-weight: bold;
+}
+
+/* qr */
+@media screen and (max-width:1130px) {
+    #resultados {
+        margin-top: -350px;
+        }
+}
+@media screen and (max-width:1023px) {
+    #resultados {
+        margin-top: -350px;
+        }
+}
+@media screen and (max-width:818px) {
+    #resultados {
+        margin-top: -650px;
+        }
+}
+@media screen and (max-width:767px) {
+    #resultados {
+        margin-top: -750px;
+        }
+    h1{
+        width: auto;
+    }
+    h4{
+        width: auto;
+        }
+}
+@media screen and (max-width:579px) {
+    #resultados {
+        margin-top: -480px;
+        }
+}
